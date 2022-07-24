@@ -13,21 +13,6 @@ function App() {
         <Route path='/reservationHistory' element={<ReservationHistory/>}/>
         <Route path='/mypage' element={<MyPage/>}/>
       </Routes>
-      <hr/>
-      <ul>
-        <li>
-          <Link to='/'>Home</Link>
-        </li>
-        <li>
-          <Link to='/map'>Map</Link>
-        </li>
-        <li>
-        <Link to='/reservationHistory'>reservationHistory</Link>
-        </li>
-        <li>
-        <Link to='/mypage'>mypage</Link>
-        </li>
-      </ul>
     </div>
   );
 }
