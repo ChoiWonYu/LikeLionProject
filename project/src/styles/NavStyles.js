@@ -16,3 +16,4 @@ export const styledNav=styled.nav`
     right : 0;
     height : 50px;
 `
+
